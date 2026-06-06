@@ -11,6 +11,8 @@ Expect a main.cpp to be replaced with easy to use functions in ver 0.3.0 and mai
 The entire core engine operates over Galois Field 2 ($GF(2)$) arithmetic, swapping traditional arithmetic for bitwise `AND` (multiplication) and bitwise `XOR` (modulo-2 addition).
 
 ## Encryption:
+
+```text
 The Plain Text String
         │
         ▼
@@ -24,9 +26,11 @@ Inject Noise: Randomly injects a 1-bit flip into the cipher block
         │
         ▼
 Encrypted Data 
+```
 
 ## Decryption:
 
+```text
 Encrypted Data
         │
         ▼
@@ -40,8 +44,12 @@ Remove scrambler: Strips linear transformation via S_INV
         │
         ▼
 Decrypted Data = The Plain Text String
+```
 
-(FOR SIMULATION OF THE ARDUINO - To Point Of Encrypted Data is Arduino Transmitter)
+### Arduino Hardware Simulation Layout:
+
+```text
+(FOR SIMULATION OF THE ARDUINO - To Point Of Encrypted Data is Arduino Transmitter) 
 Encrypted Data
         │
         ▼
@@ -58,6 +66,8 @@ Remove scrambler: Strips linear transformation via S_INV
         │
         ▼
 Decrypted Data = The Plain Text String
+```
+
 
 ### KEY GENERATION
 
