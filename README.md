@@ -98,9 +98,9 @@ clang++ -std=c++17 main.cpp math_engine.cpp key_gen.cpp encoder.cpp decoder.cpp 
 
 ## Metadata and Credits
 
-**Author** : InternecionCrystal0n
-**Current Version** : `0.1.0 - Prototype`
-**Theoretical Foundations** : Based on the McEliece Cryptosystem invented by Robert McEliece in 1978.
-**Development Insights** : Built with human architectural concepts, assisted by AI for targeted pointer debugging, bitwise endianness sorting, and header configurations. Fixed a bunch of bugs to ensure complete keyboard layout compatibility.
-**AI USAGE**: The code uses AI for debugging of the noise and speed up of research only.
-**LICENSE**: MIT LICENSE
+* **Author** : InternecionCrystal0n
+* **Current Version** : `0.1.0 - Prototype`
+* **Theoretical Foundations** : Based on the McEliece Cryptosystem invented by Robert McEliece in 1978.
+* **Development Insights** : Built with human architectural concepts, assisted by AI for targeted pointer debugging, bitwise endianness sorting, and header configurations. Fixed a bunch of bugs to ensure complete keyboard layout compatibility.
+* **AI USAGE**: The code uses AI for debugging of the noise and speed up of research only.
+* **LICENSE**: MIT LICENSE
